@@ -5,8 +5,8 @@ function PlayerWalkState:init(player, dungeon)
     self.entity = player
     self.dungeon = dungeon
 
-    self.entity.offsetX = 5
-    self.entity.offsetY = 0
+    self.entity.offsetX = 0
+    self.entity.offsetY = 5
 end
 
 function PlayerWalkState:update(dt)

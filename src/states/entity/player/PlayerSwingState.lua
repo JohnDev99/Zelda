@@ -36,7 +36,7 @@ function PlayerSwingState:init(player, dungeon)
     --Hitbox so sera ativa quando jogador pressionar tecla de ataque
     self.swordHitBox = Hitbox(hitboxX, hitboxY, hitboxWidth, hitboxHeight)
     
-    self.player:changeAnimation('sword-' .. self.player.direction)
+    self.player:changeAnimation('sword-' .. tostring(direction))
 end
 
 function PlayerSwingState:enter(params)

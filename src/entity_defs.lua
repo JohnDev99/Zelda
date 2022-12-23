@@ -45,7 +45,7 @@ ENTITY_DEFS = {
                 texture = 'character-swing-sword'
             },
             ['sword-right'] = {
-                frames = {5, 6, 7, 8},
+                frames = {9, 10, 11, 12},
                 interval = 0.05,
                 looping = false,
                 texture = 'character-swing-sword'
@@ -57,7 +57,7 @@ ENTITY_DEFS = {
                 texture = 'character-swing-sword'
             },
             ['sword-up'] = {
-                frames = {9, 10, 11, 12},
+                frames = {5, 6, 7, 8},
                 interval = 0.05,
                 looping = false,
                 texture = 'character-swing-sword'
